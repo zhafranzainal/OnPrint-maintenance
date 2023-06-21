@@ -3,7 +3,7 @@
 
 <head>
     <title>Register</title>
-    <link rel="stylesheet" href="../../Styles (css)/login.css">
+    <link rel="stylesheet" href="../../Styles (css)/register.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 </head>
 
