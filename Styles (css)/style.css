@@ -456,7 +456,6 @@ a:hover {
 .btn {
   width: 40px;
   height: 40px;
-  border-radius: 50%;
   background-color: #d9d9d9;
   display: flex;
   justify-content: center;
@@ -464,7 +463,6 @@ a:hover {
   font-size: 20px;
   font-family: 'Open Sans';
   font-weight: 900;
-  color: #202020;
   cursor: pointer;
 }
 
