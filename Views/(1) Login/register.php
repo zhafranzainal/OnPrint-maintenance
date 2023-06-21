@@ -80,44 +80,48 @@
                 <label>Full Name</label>
             </div>
 
-            <div class="user-box">
-                <input type="email" name="email" required="">
-                <label>Email</label>
-            </div>
+            <div class="side-by-side-section">
 
-            <div class="user-box">
-                <input type="text" name="username" required="">
-                <label>Username</label>
-            </div>
+                <div class="user-box">
+                    <input type="email" name="email" required="">
+                    <label>Email</label>
+                </div>
 
-            <div class="user-box">
-                <input type="password" name="password" required="">
-                <label>Password</label>
-            </div>
+                <div class="user-box">
+                    <input type="text" name="username" required="">
+                    <label>Username</label>
+                </div>
 
-            <div class="user-box">
-                <input type="text" name="mobile_no" required="">
-                <label>Mobile No</label>
-            </div>
+                <div class="user-box">
+                    <input type="password" name="password" required="">
+                    <label>Password</label>
+                </div>
 
-            <div class="user-box">
-                <input type="text" name="unit_no" required="">
-                <label>Unit No</label>
-            </div>
+                <div class="user-box">
+                    <input type="text" name="mobile_no" required="">
+                    <label>Mobile No</label>
+                </div>
 
-            <div class="user-box">
-                <input type="text" name="street_name" required="">
-                <label>Street Name</label>
-            </div>
+                <div class="user-box">
+                    <input type="text" name="unit_no" required="">
+                    <label>Unit No</label>
+                </div>
 
-            <div class="user-box">
-                <input type="text" name="residential_area" o required="">
-                <label>Residential Area</label>
-            </div>
+                <div class="user-box">
+                    <input type="text" name="street_name" required="">
+                    <label>Street Name</label>
+                </div>
 
-            <div class="user-box">
-                <input type="text" name="postal_code" required="">
-                <label>Postal Code</label>
+                <div class="user-box">
+                    <input type="text" name="residential_area" o required="">
+                    <label>Residential Area</label>
+                </div>
+
+                <div class="user-box">
+                    <input type="text" name="postal_code" required="">
+                    <label>Postal Code</label>
+                </div>
+
             </div>
 
             <a href="#">
