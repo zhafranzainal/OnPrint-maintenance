@@ -144,26 +144,26 @@
         <div class="row mt-4" id="border-line">
             <div class="col-md-4">
                 <div class="box">
-                    <img class="fas fa-truck fa-2x mb-3 mt-4 text-primary" src="../../Assets (images)/printicon.jpg" style="width:50px;height:50px;" alt="printing">
-                    <h5>The Machines</h5>
-                    <p>A cafe that located in between Kolej Kediaman 2 and Kolej Kediaman 3. This cafe provide printing services.</p>
+                    <img class="fas fa-truck fa-2x mb-3 mt-4 text-primary" src="../../Assets (images)/printicon.jpg" style="display: block; margin: 0 auto; width:80px;height:80px;" alt="printing">
+                    <h5 style="text-align: center;">The Machines</h5>
+                    <p style="text-align: center;">A cafe that located in between Kolej Kediaman 2 and Kolej Kediaman 3. This cafe provide printing services.</p>
                 </div>
 
             </div>
 
             <div class="col-md-4">
                 <div class="box">
-                    <img class="fas fa-truck fa-2x mb-3 mt-4 text-primary" src="../../Assets (images)/printicon.jpg" style="width:50px;height:50px;" alt="printing">
-                    <h5>Gambang Library</h5>
-                    <p>Printing services are on level 2</p>
+                    <img class="fas fa-truck fa-2x mb-3 mt-4 text-primary" src="../../Assets (images)/printicon.jpg" style="display: block; margin: 0 auto; width:80px;height:80px;" alt="printing">
+                    <h5 style="text-align: center;">Gambang Library</h5>
+                    <p style="text-align: center;">Printing services are on level 2</p>
                 </div>
             </div>
 
             <div class="col-md-4">
                 <div class="box">
-                    <img class="fas fa-truck fa-2x mb-3 mt-4 text-primary" src="../../Assets (images)/printicon.jpg" style="width:50px;height:50px;" alt="printing">
-                    <h5>FTKA KOOP</h5>
-                    <p>Koperasi located in FTKA buildings</p>
+                    <img class="fas fa-truck fa-2x mb-3 mt-4 text-primary" src="../../Assets (images)/printicon.jpg" style="display: block; margin: 0 auto; width:80px;height:80px;" alt="printing">
+                    <h5 style="text-align: center;">FTKA KOOP</h5>
+                    <p style="text-align: center;">Koperasi located in FTKA buildings</p>
                 </div>
             </div>
         </div>
@@ -177,9 +177,12 @@
         <div class="row">
             <div class="col-md-3">
                 <div class="card">
-                    <img class="card-img-top img-fluid" src="../../Assets (images)/combbind.jpg" style="width:50px;height:50px;" alt="Card image cap">
+                    <br>
+                    <img class="card-img-top img-fluid" src="../../Assets (images)/combbind.jpg" style="display: block; margin: 0 auto; width:120px;height:120px;" alt="Card image cap">
                     <div class="card-body">
-                        <p class="card-text"><a href="inner-productpage.html" class="text-dark">Comb Bind Notebook</a></p>
+                        <p class="card-text">
+                        <h6 href="inner-productpage.html" class="text-dark" style="text-align: center;">Comb Bind Notebook</h6>
+                        </p>
 
                         <div class="ratings">
                             <i class="fas fa-star text-warning"></i>
@@ -189,20 +192,27 @@
                             <i class="fas fa-star text-secondary"></i>
                             <label class="text-secondary ml-3">30 reviews</label>
                         </div>
-                        <p class="card-cost">RM7.00</p>
-                        <a href="cart.php"><button>Add to Cart</button></a>
+                        <p class="card-cost" style="text-align: center;">RM7.00</p>
+                        <a href="cart.php"><button style="background-color: #4CAF50;">Add to Cart</button></a>
                         <form action="/action_page.php">
-                            <input type="file" id="myFile" name="filename">
-                            <input type="submit">
+                            <br>
+                            <input type="file" id="myFile" name="filename" >
+                            <br><br>
+                            <button type="submit" style="background-color: #008CBA;">
+                                Submit
+                            </button>
                         </form>
+
                     </div>
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="card">
-                    <img class="card-img-top img-fluid" src="../../Assets (images)/tapebind.jpg" style="width:50px;height:50px;" alt="Card image cap">
+                    <br>
+                    <img class="card-img-top img-fluid" src="../../Assets (images)/tapebind.jpg" style="display: block; margin: 0 auto; width:120px;height:120px;" alt="Card image cap">
                     <div class="card-body">
-                        <p class="card-text"><a href="inner-productpage.html" class="text-dark">Tape Bind Notebook</a>
+                        <p class="card-text">
+                        <h6 href="inner-productpage.html" class="text-dark" style="text-align: center;">Tape Bind Notebook</h6>
                         </p>
                         <div class="ratings">
                             <i class="fas fa-star text-warning"></i>
@@ -212,21 +222,28 @@
                             <i class="fas fa-star text-secondary"></i>
                             <label class="text-secondary ml-3">22 reviews</label>
                         </div>
-                        <p class="card-cost">RM5.00</p>
-                        <a href="cart.php"><button>Add to Cart</button></a>
+                        <p class="card-cost" style="text-align: center;">RM5.00</p>
+                        <a href="cart.php"><button style="background-color: #4CAF50;">Add to Cart</button></a>
                         <form action="/action_page.php">
+                            <br>
                             <input type="file" id="myFile" name="filename">
-                            <input type="submit">
+                            <br><br>
+                            <button type="submit" style="background-color: #008CBA;">
+                                Submit
+                            </button>
                         </form>
+
 
                     </div>
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="card">
-                    <img class="card-img-top img-fluid" src="../../Assets (images)/thesis.jpg" style="width:50px;height:50px;" alt="Card image cap">
+                    <br>
+                    <img class="card-img-top img-fluid" src="../../Assets (images)/thesis.jpg" style="display: block; margin: 0 auto; width:120px;height:120px;" alt="Card image cap">
                     <div class="card-body">
-                        <p class="card-text"><a href="inner-productpage.html" class="text-dark">Thesis Hard Cover</a>
+                        <p class="card-text">
+                        <h6 href="inner-productpage.html" class="text-dark" style="text-align: center;">Thesis Hard Cover</h6>
                         </p>
                         <div class="ratings">
                             <i class="fas fa-star text-warning"></i>
@@ -236,11 +253,15 @@
                             <i class="fas fa-star text-secondary"></i>
                             <label class="text-secondary ml-3">10 reviews</label>
                         </div>
-                        <p class="card-cost">RM15.00</p>
-                        <a href="cart.php"><button>Add to Cart</button></a>
+                        <p class="card-cost" style="text-align: center;">RM15.00</p>
+                        <a href="cart.php"><button style="background-color: #4CAF50;">Add to Cart</button></a>
                         <form action="/action_page.php">
+                            <br>
                             <input type="file" id="myFile" name="filename">
-                            <input type="submit">
+                            <br><br>
+                            <button type="submit" style="background-color: #008CBA;">
+                                Submit
+                            </button>
                         </form>
 
                     </div>
@@ -248,9 +269,12 @@
             </div>
             <div class="col-md-3">
                 <div class="card">
-                    <img class="card-img-top img-fluid" src="../../Assets (images)/poster.jpg" style="width:50px;height:50px;" alt="Card image cap">
+                    <br>
+                    <img class="card-img-top img-fluid" src="../../Assets (images)/poster.jpg" style="display: block; margin: 0 auto; width:120px;height:120px;" alt="Card image cap">
                     <div class="card-body">
-                        <p class="card-text"><a href="inner-productpage.html" class="text-dark">Poster</a></p>
+                        <p class="card-text">
+                        <h6 href="inner-productpage.html" class="text-dark" style="text-align: center;">Poster</h6>
+                        </p>
                         <div class="ratings">
                             <i class="fas fa-star text-warning"></i>
                             <i class="fas fa-star text-warning"></i>
@@ -259,12 +283,17 @@
                             <i class="fas fa-star text-secondary"></i>
                             <label class="text-secondary ml-3">28 reviews</label>
                         </div>
-                        <p class="card-cost">RM8.00</p>
-                        <a href="cart.php"><button>Add to Cart</button></a>
+                        <p class="card-cost" style="text-align: center;">RM8.00</p>
+                        <a href="cart.php"><button style="background-color: #4CAF50;">Add to Cart</button></a>
                         <form action="/action_page.php">
+                            <br>
                             <input type="file" id="myFile" name="filename">
-                            <input type="submit">
+                            <br><br>
+                            <button type="submit" style="background-color: #008CBA;">
+                                Submit
+                            </button>
                         </form>
+
 
                     </div>
                 </div>
@@ -280,9 +309,12 @@
         <div class="row">
             <div class="col-md-3">
                 <div class="card">
-                    <img class="card-img-top img-fluid" src="../../Assets (images)/certificate.jpg" style="width:50px;height:50px;" alt="Card image cap">
+                    <br>
+                    <img class="card-img-top img-fluid" src="../../Assets (images)/certificate.jpg" style="display: block; margin: 0 auto; width:120px;height:120px;" alt="Card image cap">
                     <div class="card-body">
-                        <p class="card-text"><a href="inner-productpage.html" class="text-dark">Certificate Printing</a></p>
+                        <p class="card-text">
+                        <h6 href="inner-productpage.html" class="text-dark" style="text-align: center;">Certificate Printing</h6>
+                        </p>
                         <div class="ratings">
                             <i class="fas fa-star text-warning"></i>
                             <i class="fas fa-star text-warning"></i>
@@ -291,11 +323,15 @@
                             <i class="fas fa-star text-secondary"></i>
                             <label class="text-secondary ml-3">34 reviews</label>
                         </div>
-                        <p class="card-cost">RM3.00</p>
-                        <a href="cart.php"><button>Add to Cart</button></a>
+                        <p class="card-cost" style="text-align: center;">RM3.00</p>
+                        <a href="cart.php"><button style="background-color: #4CAF50;">Add to Cart</button></a>
                         <form action="/action_page.php">
+                            <br>
                             <input type="file" id="myFile" name="filename">
-                            <input type="submit">
+                            <br><br>
+                            <button type="submit" style="background-color: #008CBA;">
+                                Submit
+                            </button>
                         </form>
 
                     </div>
@@ -307,15 +343,18 @@
     <br><br>
     <div class="container cardItem" id="recommend">
         <div id="heading">
-            <h2>Recommended</h2>
+            <h2 >Recommended</h2>
         </div>
         <br>
         <div class="row">
             <div class="col-md-3">
                 <div class="card">
-                    <img class="card-img-top img-fluid" src="../../Assets (images)/combbind.jpg" style="width:50px;height:50px;" alt="Card image cap">
+                    <br>
+                    <img class="card-img-top img-fluid" src="../../Assets (images)/combbind.jpg" style="display: block; margin: 0 auto; width:120px;height:120px;" alt="Card image cap">
                     <div class="card-body">
-                        <p class="card-text"><a href="inner-productpage.html" class="text-dark">Comb Bind Notebook</a></p>
+                        <p class="card-text">
+                        <h6 href="inner-productpage.html" class="text-dark" style="text-align: center;"> Comb Bind Notebook</h6>
+                        </p>
 
                         <div class="ratings">
                             <i class="fas fa-star text-warning"></i>
@@ -325,11 +364,15 @@
                             <i class="fas fa-star text-secondary"></i>
                             <label class="text-secondary ml-3">30 reviews</label>
                         </div>
-                        <p class="card-cost">RM7.00</p>
-                        <a href="cart.php"><button>Add to Cart</button></a>
+                        <p class="card-cost" style="text-align: center;">RM7.00</p>
+                        <a href="cart.php"><button style="background-color: #4CAF50;">Add to Cart</button></a>
                         <form action="/action_page.php">
+                            <br>
                             <input type="file" id="myFile" name="filename">
-                            <input type="submit">
+                            <br><br>
+                            <button type="submit" style="background-color: #008CBA;">
+                                Submit
+                            </button>
                         </form>
 
                     </div>
@@ -337,9 +380,11 @@
             </div>
             <div class="col-md-3">
                 <div class="card">
-                    <img class="card-img-top img-fluid" src="../../Assets (images)/tapebind.jpg" style="width:50px;height:50px;" alt="Card image cap">
+                    <br>
+                    <img class="card-img-top img-fluid" src="../../Assets (images)/tapebind.jpg" style="display: block; margin: 0 auto; width:120px;height:120px;" alt="Card image cap">
                     <div class="card-body">
-                        <p class="card-text"><a href="inner-productpage.html" class="text-dark">Tape Bind Notebook</a>
+                        <p class="card-text">
+                        <h6 href="inner-productpage.html" class="text-dark" style="text-align: center;">Tape Bind Notebook</h6>
                         </p>
                         <div class="ratings">
                             <i class="fas fa-star text-warning"></i>
@@ -349,11 +394,15 @@
                             <i class="fas fa-star text-secondary"></i>
                             <label class="text-secondary ml-3">22 reviews</label>
                         </div>
-                        <p class="card-cost">RM5.00</p>
-                        <a href="cart.php"><button>Add to Cart</button></a>
+                        <p class="card-cost" style="text-align: center;">RM5.00</p>
+                        <a href="cart.php"><button style="background-color: #4CAF50;">Add to Cart</button></a>
                         <form action="/action_page.php">
+                            <br>
                             <input type="file" id="myFile" name="filename">
-                            <input type="submit">
+                            <br><br>
+                            <button type="submit" style="background-color: #008CBA;">
+                                Submit
+                            </button>
                         </form>
 
                     </div>
@@ -361,9 +410,11 @@
             </div>
             <div class="col-md-3">
                 <div class="card">
-                    <img class="card-img-top img-fluid" src="../../Assets (images)/thesis.jpg" style="width:50px;height:50px;" alt="Card image cap">
+                    <br>
+                    <img class="card-img-top img-fluid" src="../../Assets (images)/thesis.jpg" style="display: block; margin: 0 auto; width:120px;height:120px;" alt="Card image cap">
                     <div class="card-body">
-                        <p class="card-text"><a href="inner-productpage.html" class="text-dark">Thesis Hard Cover</a>
+                        <p class="card-text">
+                        <h6 href="inner-productpage.html" class="text-dark" style="text-align: center;">Thesis Hard Cover</h6>
                         </p>
                         <div class="ratings">
                             <i class="fas fa-star text-warning"></i>
@@ -373,43 +424,51 @@
                             <i class="fas fa-star text-secondary"></i>
                             <label class="text-secondary ml-3">10 reviews</label>
                         </div>
-                        <p class="card-cost">RM15.00</p>
-                        <a href="cart.php"><button>Add to Cart</button></a>
+                        <p class="card-cost" style="text-align: center;">RM15.00</p>
+                        <a href="cart.php"><button style="background-color: #4CAF50;">Add to Cart</button></a>
                         <form action="/action_page.php">
+                            <br>
                             <input type="file" id="myFile" name="filename">
-                            <input type="submit">
+                            <br><br>
+                            <button type="submit" style="background-color: #008CBA;">
+                                Submit
+                            </button>
                         </form>
-
-
 
                     </div>
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="card">
-                    <img class="card-img-top img-fluid" src="../../Assets (images)/certificate.jpg" style="width:50px;height:50px;" alt="Card image cap">
+                    <br>
+                    <img class="card-img-top img-fluid" src="../../Assets (images)/poster.jpg" style="display: block; margin: 0 auto; width:120px;height:120px;" alt="Card image cap">
                     <div class="card-body">
-                        <p class="card-text"><a href="inner-productpage.html" class="text-dark">Certificate Printing</a></p>
+                        <p class="card-text">
+                        <h6 href="inner-productpage.html" class="text-dark" style="text-align: center;">Poster</h6>
+                        </p>
                         <div class="ratings">
                             <i class="fas fa-star text-warning"></i>
                             <i class="fas fa-star text-warning"></i>
                             <i class="fas fa-star text-warning"></i>
                             <i class="fas fa-star text-warning"></i>
                             <i class="fas fa-star text-secondary"></i>
-                            <label class="text-secondary ml-3">34 reviews</label>
+                            <label class="text-secondary ml-3">28 reviews</label>
                         </div>
-                        <p class="card-cost">RM3.00</p>
-                        <a href="cart.php"><button>Add to Cart</button></a>
+                        <p class="card-cost" style="text-align: center;">RM8.00</p>
+                        <a href="cart.php"><button style="background-color: #4CAF50;">Add to Cart</button></a>
                         <form action="/action_page.php">
+                            <br>
                             <input type="file" id="myFile" name="filename">
-                            <input type="submit">
+                            <br><br>
+                            <button type="submit" style="background-color: #008CBA;">
+                                Submit
+                            </button>
                         </form>
 
                     </div>
                 </div>
             </div>
         </div>
-    </div>
     </div>
 
     <br>
@@ -424,7 +483,7 @@
         </div>
     </footer>
 
-    <footer class="footer pt-5 pb-5" id="footer">
+    <footer class="footer pt-5 pb-5" id="footer" style="background-color: #008CBA;">
         <div class="container">
 
             <span class="text-muted float-left">
