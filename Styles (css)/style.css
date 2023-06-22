@@ -180,6 +180,7 @@ sup {
 #heading {
   display: flex;
   position: relative;
+  
 }
 
 #brands .card-text {
