@@ -36,6 +36,6 @@ if (isset ($_SESSION['username']))
 {
     $userdata = getUserData(getid($_SESSION['username']));
     ?>
-    <?php echo $userdata ['username']
+    <?php echo $userdata ['username'];
 
 }

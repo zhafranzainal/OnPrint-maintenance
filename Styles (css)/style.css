@@ -238,6 +238,7 @@ footer ul li a:hover {
 }
 
 #float {
+  
   position: absolute;
   right: 0;
 }
@@ -612,6 +613,7 @@ a:hover {
 
   #float {
     right: 1rem;
+    
   }
 
   .cardItem h2 {
@@ -677,6 +679,19 @@ a:hover {
 
   #relatedProducts .col-md-3 {
     margin-bottom: 30%;
+  }
+
+  /*modul 6*/
+
+  .john{
+    background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
   }
 
 }
