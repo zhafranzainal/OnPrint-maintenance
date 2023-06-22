@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
     <link rel="stylesheet" href="../../Styles (css)/style.css">
-    <link rel="stylesheet" href="../../Styles (css)/table.css">
+    <link rel="stylesheet" href="../../Styles (css)/feedback.css">
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
 
@@ -183,7 +183,7 @@
     </div>
     <hr>
 
-    <div class="container">
+    <div class="container-feedback">
         <div class="fulfillmentbatch fulfillmentsearch">
 
             <div class="gap15"></div>
@@ -191,26 +191,23 @@
 
             <div class="row">
                 <div class="panel panel-default claim-panel-table">
-
                     <div class="panel-heading">
                         <h3 class="panel-title">Delivery Feedback</h3>
                     </div>
-
                     <form method="post" action="delivery-feedback.php">
 
-                        <label>Description</label><br>
-                        <input type="text" name="description" required="">
-
-                        <input type="hidden" name="id" value="<?php echo $idURL; ?>">
-
-                        <br><br>
-                        <input type="submit">
-
+                        <label>Description</label>
+                        <div>
+                            <textarea id="autoResizeTextarea" placeholder="Give your feedback" name="description" cols="75" rows="2"></textarea>
+                        </div>
+                        <input type="hidden" name="id" value="1">
+                        <br>
+                        <div>
+                            <input type="submit" value="Submit">
+                        </div>
                     </form>
-
                 </div>
             </div>
-
         </div>
     </div>
 
@@ -237,5 +234,5 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
 <script src="js/script.js"></script>
-
+<script src="../../Functions (js)/feedback.js"></script>
 </html>
