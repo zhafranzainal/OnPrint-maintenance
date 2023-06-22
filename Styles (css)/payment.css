@@ -397,11 +397,7 @@
       margin-top: 10%;
     }
   
-    #card .col-md-7 button {
-      margin-left: -3%;
-      font-size: .833rem;
-      margin-bottom: 7%;
-    }
+
   
     #card .col-md-2 {
       width: 45%;
@@ -688,16 +684,7 @@
   border: 1px solid grey;
   }
   
-  .input-box button {
-  background-color: #7ed320;
-  color: #fff;
-  padding: 12px;
-  border-radius: 8px;
-  width: 100%;
-  border: none;
-  font-size: 15px;
-  cursor: pointer;
-  }
+  
   
   .input-box select {
   padding: 12px;
